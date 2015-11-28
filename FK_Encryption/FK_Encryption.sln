@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FK_Encryption", "FK_Encryption.vcproj", "{464F5BF7-CF98-4B09-B1D8-3468E83018ED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestEncryption", "..\TestEncryption\TestEncryption.vcproj", "{DFFBEBCE-ACCB-441D-B68C-8FE828906B31}"
+	ProjectSection(ProjectDependencies) = postProject
+		{464F5BF7-CF98-4B09-B1D8-3468E83018ED} = {464F5BF7-CF98-4B09-B1D8-3468E83018ED}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{464F5BF7-CF98-4B09-B1D8-3468E83018ED}.Debug.ActiveCfg = Debug|Win32
+		{464F5BF7-CF98-4B09-B1D8-3468E83018ED}.Debug.Build.0 = Debug|Win32
+		{464F5BF7-CF98-4B09-B1D8-3468E83018ED}.Release.ActiveCfg = Release|Win32
+		{464F5BF7-CF98-4B09-B1D8-3468E83018ED}.Release.Build.0 = Release|Win32
+		{DFFBEBCE-ACCB-441D-B68C-8FE828906B31}.Debug.ActiveCfg = Debug|Win32
+		{DFFBEBCE-ACCB-441D-B68C-8FE828906B31}.Debug.Build.0 = Debug|Win32
+		{DFFBEBCE-ACCB-441D-B68C-8FE828906B31}.Release.ActiveCfg = Release|Win32
+		{DFFBEBCE-ACCB-441D-B68C-8FE828906B31}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
